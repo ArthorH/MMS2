@@ -1,0 +1,1 @@
+ # All datasheets for the parts should be stored in this folder
