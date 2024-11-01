@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TJA1044GTK_3Z")(type "KiCad")(uri "${KIPRJMOD}/../parts/TJA1044GTK_3Z.kicad_sym")(options "")(descr ""))
+  (lib (name "DSUB_7w2")(type "KiCad")(uri "/home/lemonx/it/modular_system_mini/parts/DSUB_7w2.kicad_sym")(options "")(descr ""))
+)
