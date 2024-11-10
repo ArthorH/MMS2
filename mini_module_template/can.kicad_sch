@@ -1564,18 +1564,7 @@
 		)
 		(uuid "bd470e73-77e8-485c-a594-93448737b24e")
 	)
-	(label "CANL"
-		(at 187.96 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "309a01c2-220c-4696-894f-d38dc23a6642")
-	)
-	(label "CANL"
+	(label "CAN-"
 		(at 228.6 92.71 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1586,18 +1575,7 @@
 		)
 		(uuid "6ae3722b-a520-4402-a81d-7e25d5f6d241")
 	)
-	(label "CANH"
-		(at 187.96 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f7a1e994-51a1-4b5b-ba85-467574fc1276")
-	)
-	(label "CANH"
+	(label "CAN+"
 		(at 255.27 92.71 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1608,7 +1586,7 @@
 		)
 		(uuid "fbd6e9dc-e41c-4d5c-a936-5a0852954bce")
 	)
-	(hierarchical_label "CAN_L"
+	(hierarchical_label "CAN-"
 		(shape input)
 		(at 196.85 87.63 0)
 		(fields_autoplaced yes)
@@ -1632,7 +1610,7 @@
 		)
 		(uuid "0dc46326-a57c-4bd0-8c2e-135c5ab34de5")
 	)
-	(hierarchical_label "CAN_H"
+	(hierarchical_label "CAN+"
 		(shape input)
 		(at 196.85 85.09 0)
 		(fields_autoplaced yes)

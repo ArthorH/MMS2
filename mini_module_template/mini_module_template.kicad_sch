@@ -802,7 +802,7 @@
 				(justify left top)
 			)
 		)
-		(pin "CAN_H" input
+		(pin "CAN+" input
 			(at 153.67 135.89 90)
 			(effects
 				(font
@@ -812,7 +812,7 @@
 			)
 			(uuid "3672fdb0-7dfb-4cce-8296-40de37ae09ce")
 		)
-		(pin "CAN_L" input
+		(pin "CAN-" input
 			(at 156.21 135.89 90)
 			(effects
 				(font
@@ -1048,7 +1048,7 @@
 			)
 			(uuid "9c0519fe-c074-4e98-831d-d39bc3ee0611")
 		)
-		(pin "CAN_H" input
+		(pin "CAN+" input
 			(at 161.29 118.11 180)
 			(effects
 				(font
@@ -1058,7 +1058,7 @@
 			)
 			(uuid "978fd423-c061-4eef-84f9-8fe6b0aaab23")
 		)
-		(pin "CAN_L" input
+		(pin "CAN-" input
 			(at 161.29 120.65 180)
 			(effects
 				(font
