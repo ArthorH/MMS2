@@ -213,6 +213,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 124.46) (xy 161.29 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0746b414-8ce3-4a67-952c-3d78d38fb289")
+	)
+	(wire
+		(pts
 			(xy 149.86 77.47) (xy 161.29 77.47)
 		)
 		(stroke
@@ -223,23 +233,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 46.99) (xy 198.12 46.99)
+			(xy 198.12 46.99) (xy 209.55 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "11fa086a-272f-4206-a0e1-d5ce8d1aa7ed")
-	)
-	(wire
-		(pts
-			(xy 165.1 148.59) (xy 203.2 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "134acf98-2586-4245-aeb9-acf975286f9e")
 	)
 	(wire
 		(pts
@@ -253,6 +253,26 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 105.41) (xy 207.01 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "200636d5-cefe-4d51-b8ae-31364eefb005")
+	)
+	(wire
+		(pts
+			(xy 199.39 120.65) (xy 215.9 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3813f5cc-4fc0-491a-92d0-45d4e08e9d5d")
+	)
+	(wire
+		(pts
 			(xy 152.4 69.85) (xy 152.4 48.26)
 		)
 		(stroke
@@ -260,16 +280,6 @@
 			(type default)
 		)
 		(uuid "386a543e-d236-43ee-926b-1e157b3e1e0e")
-	)
-	(wire
-		(pts
-			(xy 165.1 156.21) (xy 208.28 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e3c2807-2916-41f6-aba8-7b2bf8e71df9")
 	)
 	(wire
 		(pts
@@ -283,16 +293,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 120.65) (xy 156.21 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4452c264-dd78-41a3-b676-1cfbe402825d")
-	)
-	(wire
-		(pts
 			(xy 130.81 106.68) (xy 161.29 106.68)
 		)
 		(stroke
@@ -303,33 +303,33 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 146.05) (xy 200.66 49.53)
+			(xy 199.39 105.41) (xy 207.01 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f75ab9c-5fea-4083-860d-b616010c86f0")
+		(uuid "4b554a0e-1a97-47d4-a40a-34e1a790f594")
 	)
 	(wire
 		(pts
-			(xy 156.21 120.65) (xy 156.21 135.89)
+			(xy 115.57 125.73) (xy 115.57 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "57bba379-b7db-4180-82ba-2e94cb79147c")
+		(uuid "4e10a56a-2038-41b6-8b87-91d690a38350")
 	)
 	(wire
 		(pts
-			(xy 205.74 153.67) (xy 205.74 36.83)
+			(xy 199.39 107.95) (xy 209.55 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "58450ecf-0cbe-424c-bb12-a13070eae33d")
+		(uuid "573d8c6c-ccdc-422c-8816-682139486f78")
 	)
 	(wire
 		(pts
@@ -343,7 +343,27 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 36.83) (xy 205.74 36.83)
+			(xy 139.7 129.54) (xy 139.7 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69c45a96-e35c-4481-8bd5-49d6952ae920")
+	)
+	(wire
+		(pts
+			(xy 130.81 116.84) (xy 161.29 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df82484-91d2-4416-a0f6-de997ce7b9b3")
+	)
+	(wire
+		(pts
+			(xy 198.12 36.83) (xy 213.36 36.83)
 		)
 		(stroke
 			(width 0)
@@ -373,7 +393,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 34.29) (xy 208.28 34.29)
+			(xy 198.12 34.29) (xy 215.9 34.29)
 		)
 		(stroke
 			(width 0)
@@ -393,6 +413,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 129.54) (xy 139.7 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e1d97fd-b1ad-44d1-bd5d-8693da2ab450")
+	)
+	(wire
+		(pts
 			(xy 130.81 111.76) (xy 161.29 111.76)
 		)
 		(stroke
@@ -400,16 +430,6 @@
 			(type default)
 		)
 		(uuid "82d7e2f7-abd1-4db5-bdb3-e3fb2c7f9441")
-	)
-	(wire
-		(pts
-			(xy 165.1 153.67) (xy 205.74 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b42fb25-60fe-4ee3-8662-6333429263d2")
 	)
 	(wire
 		(pts
@@ -433,16 +453,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 146.05) (xy 200.66 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "969df5d6-b327-4d40-bf68-2ac09634f3a6")
-	)
-	(wire
-		(pts
 			(xy 152.4 48.26) (xy 161.29 48.26)
 		)
 		(stroke
@@ -453,23 +463,43 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 156.21) (xy 208.28 34.29)
+			(xy 209.55 107.95) (xy 209.55 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a425a746-f426-434a-8c4b-2512e1f7571a")
+		(uuid "a4493659-47e5-4a31-b73e-13e78952db71")
 	)
 	(wire
 		(pts
-			(xy 198.12 49.53) (xy 200.66 49.53)
+			(xy 198.12 49.53) (xy 207.01 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a98eebfb-a933-4ade-96f5-3ed5a48843a9")
+	)
+	(wire
+		(pts
+			(xy 130.81 121.92) (xy 161.29 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaf422c2-5669-4b80-a74c-1f67a11c4ded")
+	)
+	(wire
+		(pts
+			(xy 213.36 118.11) (xy 213.36 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b32d0d36-1ce9-44bd-ad9b-5a677d2f500e")
 	)
 	(wire
 		(pts
@@ -483,23 +513,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 135.89) (xy 153.67 118.11)
+			(xy 199.39 118.11) (xy 213.36 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c045976b-c429-411e-b63b-b7e5cfad7268")
-	)
-	(wire
-		(pts
-			(xy 139.7 119.38) (xy 139.7 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3951230-0eb7-4307-92c7-034ffb9c07ba")
+		(uuid "b725f9d1-73c2-429d-9861-cdbd194dfde9")
 	)
 	(wire
 		(pts
@@ -510,6 +530,16 @@
 			(type default)
 		)
 		(uuid "cc7f3aa9-ba47-4e17-b69c-092ad88854a1")
+	)
+	(wire
+		(pts
+			(xy 215.9 120.65) (xy 215.9 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4f31b66-f42b-4ed6-b211-1ecf6b006c76")
 	)
 	(wire
 		(pts
@@ -533,16 +563,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 148.59) (xy 203.2 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcd6d8bb-92dd-49ab-b2a9-cb67ac55e96e")
-	)
-	(wire
-		(pts
 			(xy 130.81 41.91) (xy 161.29 41.91)
 		)
 		(stroke
@@ -550,16 +570,6 @@
 			(type default)
 		)
 		(uuid "e35caabe-2176-4d1b-b178-8de90afc4d84")
-	)
-	(wire
-		(pts
-			(xy 130.81 119.38) (xy 139.7 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebb1b628-fb7e-4aca-8046-84a099c952d5")
 	)
 	(wire
 		(pts
@@ -573,16 +583,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 118.11) (xy 161.29 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1caf3c4-7d63-4a3b-8ed5-c7b8d882d92e")
-	)
-	(wire
-		(pts
 			(xy 130.81 44.45) (xy 161.29 44.45)
 		)
 		(stroke
@@ -590,6 +590,16 @@
 			(type default)
 		)
 		(uuid "f4b4993c-6e50-425b-be6c-f3febb7f9af6")
+	)
+	(wire
+		(pts
+			(xy 130.81 119.38) (xy 161.29 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd0ce86b-2938-45dd-a443-f05b41460ee6")
 	)
 	(text "<-------\n"
 		(exclude_from_sim no)
@@ -962,26 +972,6 @@
 				(justify left top)
 			)
 		)
-		(pin "CAN+" input
-			(at 153.67 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3672fdb0-7dfb-4cce-8296-40de37ae09ce")
-		)
-		(pin "CAN-" input
-			(at 156.21 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "014f3172-2d64-4b19-81fe-62788ef2c876")
-		)
 		(pin "V_SENSE" output
 			(at 139.7 135.89 90)
 			(effects
@@ -991,46 +981,6 @@
 				(justify right)
 			)
 			(uuid "6c44d549-7e4b-409b-9f65-617fd7da26a8")
-		)
-		(pin "USB_UPSTREAM_D+" input
-			(at 165.1 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "2a95837a-1067-4447-939f-7635da40d369")
-		)
-		(pin "USB_UPSTREAM_D-" input
-			(at 165.1 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "21944f57-b664-4bd4-b1ba-00fc8b732f17")
-		)
-		(pin "USB_DOWNSTREAM_D+" input
-			(at 165.1 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "b20936b3-a87d-4096-8f30-7cf57c6e8da7")
-		)
-		(pin "USB_DOWNSTREAM_D-" input
-			(at 165.1 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "80763c53-0644-449f-b149-b73433226d9e")
 		)
 		(instances
 			(project "mini_module_template"
@@ -1110,53 +1060,13 @@
 			)
 			(uuid "3165b2a2-76a5-4a64-89d7-a174a4d9f207")
 		)
-		(pin "TXD_LED" input
-			(at 130.81 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "f9829606-92d1-4095-93bd-11c3622fad71")
-		)
-		(pin "RXD_LED" input
-			(at 130.81 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "7205b9b0-4a83-4cad-901d-6db6b0ac9a96")
-		)
-		(pin "CAN_TX" output
-			(at 130.81 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3408006e-d645-4edc-b6e6-d03c75fd1382")
-		)
-		(pin "CAN_RX" input
-			(at 130.81 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "42156228-0a59-4913-82f5-21e8445f7c4e")
-		)
 		(pin "V_SENSE" output
-			(at 130.81 119.38 0)
+			(at 115.57 125.73 270)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "471d02a0-7192-4c4c-9924-26ce9688c62c")
 		)
@@ -1170,6 +1080,86 @@
 			)
 			(uuid "cc339d35-669a-49b2-be0e-00b06abc35ad")
 		)
+		(pin "TXD1_LED" input
+			(at 130.81 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "43042f2f-d1b5-4d11-8fa4-fae1b37d38c7")
+		)
+		(pin "RXD1_LED" input
+			(at 130.81 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1f13ba03-4c95-4c9a-a8d9-56169f8a0883")
+		)
+		(pin "CAN2_RXD" output
+			(at 130.81 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "00fe8f29-ce2d-4b79-9b2c-bfc0daa833e1")
+		)
+		(pin "CAN1_RXD" output
+			(at 130.81 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bbd1da62-ac16-48fc-a2c8-3d7c5f904b65")
+		)
+		(pin "CAN1_TXD" input
+			(at 130.81 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "29208eca-bf2c-48a6-b1a5-2336b00b087d")
+		)
+		(pin "CAN2_TXD" input
+			(at 130.81 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "88e31866-f9c2-4c74-83ee-9d54a7e20fa0")
+		)
+		(pin "TXD2_LED" input
+			(at 130.81 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7fa15c8e-e9d5-45fc-8cdb-ad371d66917d")
+		)
+		(pin "RXD2_LED" input
+			(at 130.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1f231edd-bb58-4a90-bd85-2094ab295e0c")
+		)
 		(instances
 			(project "mini_module_template"
 				(path "/f131027f-631c-4099-b0ec-5f883860005f"
@@ -1180,7 +1170,7 @@
 	)
 	(sheet
 		(at 161.29 100.33)
-		(size 27.94 26.67)
+		(size 38.1 26.67)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1208,27 +1198,27 @@
 				(justify left top)
 			)
 		)
-		(pin "TXD_LED" input
-			(at 161.29 104.14 180)
+		(pin "USB_DOWNSTREAM_D+" input
+			(at 199.39 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
-			(uuid "0dfd78bd-925c-47ef-994f-ac0cde1ce8c5")
+			(uuid "8c6f6f16-527b-4496-8a7b-9f5e28cd4eec")
 		)
-		(pin "RXD_LED" input
-			(at 161.29 106.68 180)
+		(pin "USB_DOWNSTREAM_D-" input
+			(at 199.39 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
-			(uuid "f4bb502e-4eeb-4a39-b132-d32ba274dcf1")
+			(uuid "6594b5de-d16c-4fec-b567-d38308eb39bf")
 		)
-		(pin "CAN_TXD" input
+		(pin "CAN1_TXD" input
 			(at 161.29 109.22 180)
 			(effects
 				(font
@@ -1236,9 +1226,9 @@
 				)
 				(justify left)
 			)
-			(uuid "a1d8dad8-eb7a-4f57-a44c-fd7e0f05b6d3")
+			(uuid "d4279e85-6570-4692-aa73-cb07f2d9b8bf")
 		)
-		(pin "CAN_RXD" output
+		(pin "CAN1_RXD" output
 			(at 161.29 111.76 180)
 			(effects
 				(font
@@ -1246,27 +1236,87 @@
 				)
 				(justify left)
 			)
-			(uuid "9c0519fe-c074-4e98-831d-d39bc3ee0611")
+			(uuid "d79e71d2-cd9a-4c13-ad43-2e6cdd16536f")
 		)
-		(pin "CAN+" input
-			(at 161.29 118.11 180)
+		(pin "USB_UPSTREAM_D-" input
+			(at 199.39 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bfc46f37-3fdc-485c-8b6f-737adbcc364e")
+		)
+		(pin "USB_UPSTREAM_D+" input
+			(at 199.39 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a3d77f8d-3429-4651-96cb-2101244a25a1")
+		)
+		(pin "RXD2_LED" input
+			(at 161.29 119.38 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "978fd423-c061-4eef-84f9-8fe6b0aaab23")
+			(uuid "c9a9722a-ce87-491a-afa4-0aad7a6ee792")
 		)
-		(pin "CAN-" input
-			(at 161.29 120.65 180)
+		(pin "TXD2_LED" input
+			(at 161.29 116.84 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c8455517-42fd-4dec-a780-35b7646ca5ab")
+			(uuid "89a37937-e81e-4654-be4b-3c20db7e81e0")
+		)
+		(pin "RXD1_LED" input
+			(at 161.29 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0e26073e-c20c-4581-b165-9de3c64de72b")
+		)
+		(pin "TXD1_LED" input
+			(at 161.29 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3e5ea78b-3fc2-4915-802e-db6a9321013f")
+		)
+		(pin "CAN2_RXD" output
+			(at 161.29 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8f884223-cafc-47b0-a501-4e426ec7d8b2")
+		)
+		(pin "CAN2_TXD" input
+			(at 161.29 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ed5939fc-ce9d-4658-b1b6-21060108985d")
 		)
 		(instances
 			(project "mini_module_template"
