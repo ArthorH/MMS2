@@ -3139,7 +3139,7 @@
 		)
 		(uuid "3380a98e-1221-4149-a725-2500abbf292d")
 	)
-	(hierarchical_label "USB_UPSTREAM_D+"
+	(hierarchical_label "USB_UPSTREAM_D-"
 		(shape input)
 		(at 76.2 115.57 0)
 		(fields_autoplaced yes)
@@ -3149,7 +3149,7 @@
 			)
 			(justify left)
 		)
-		(uuid "82b4a63d-253e-49e4-97f4-db97829d6abf")
+		(uuid "8ab75ab4-700b-4efd-8d9c-eb128d4746e5")
 	)
 	(hierarchical_label "RXD2_LED"
 		(shape input)
@@ -3187,6 +3187,18 @@
 		)
 		(uuid "b76bd6f4-d7f4-44c0-8f52-f82901f2e862")
 	)
+	(hierarchical_label "USB_UPSTREAM_D+"
+		(shape input)
+		(at 76.2 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc447bfc-b9f3-4bc2-bc32-2f321854397b")
+	)
 	(hierarchical_label "CAN2_TXD"
 		(shape input)
 		(at 53.34 60.96 180)
@@ -3198,18 +3210,6 @@
 			(justify right)
 		)
 		(uuid "c3f64ec2-c0b9-44c6-88d6-7bcd90b7c45e")
-	)
-	(hierarchical_label "USB_UPSTREAM_D-"
-		(shape input)
-		(at 76.2 113.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ca64dfe0-9a2d-4308-ad4c-07f85195f727")
 	)
 	(hierarchical_label "CAN1_RXD"
 		(shape output)
