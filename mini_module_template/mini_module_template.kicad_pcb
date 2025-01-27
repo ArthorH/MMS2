@@ -31791,7 +31791,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1779"
+		(property "LCSC" "C23733"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -38808,7 +38808,7 @@
 		)
 	)
 	(gr_text "D-"
-		(at 167.99 91.3 -45)
+		(at 173.9 91.15 -45)
 		(layer "B.SilkS" knockout)
 		(uuid "8ba8a3d3-3c23-4d3c-8aab-a1ca03541b9a")
 		(effects
@@ -38880,7 +38880,7 @@
 		)
 	)
 	(gr_text "D+"
-		(at 173.84 91.17 -45)
+		(at 167.7 91 -45)
 		(layer "B.SilkS" knockout)
 		(uuid "c622726c-3279-4466-ad19-f1a81b1103d0")
 		(effects
