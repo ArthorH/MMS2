@@ -6,6 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "Root schematic")
+		(date "2025-01-10")
+		(rev "1.0")
+		(company "Patryk Dudziński")
 	)
 	(lib_symbols
 		(symbol "Jumper:SolderJumper_2_Bridged"

@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "4778b40f-ce9b-4d68-b9c9-9d56e08d137b")
 	(paper "A4")
+	(title_block
+		(date "2025-01-10")
+		(rev "1.0")
+		(company "Patryk Dudziński")
+	)
 	(lib_symbols)
 	(rectangle
 		(start 19.05 16.51)

@@ -6,6 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "CAN")
+		(date "2025-01-10")
+		(rev "1.0")
+		(company "Patryk Dudziński")
 	)
 	(lib_symbols
 		(symbol "Connector:RJ45_LED_Shielded"
@@ -2929,7 +2932,6 @@
 	)
 	(label "CAN1+"
 		(at 252.73 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2940,7 +2942,6 @@
 	)
 	(label "CAN1-"
 		(at 148.59 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2951,7 +2952,6 @@
 	)
 	(label "CAN2-"
 		(at 95.25 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2962,7 +2962,6 @@
 	)
 	(label "CAN2+"
 		(at 226.06 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2973,7 +2972,6 @@
 	)
 	(label "CAN1-"
 		(at 226.06 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2984,7 +2982,6 @@
 	)
 	(label "CAN2+"
 		(at 95.25 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2995,7 +2992,6 @@
 	)
 	(label "CAN2+"
 		(at 77.47 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3006,7 +3002,6 @@
 	)
 	(label "CAN2-"
 		(at 148.59 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3017,7 +3012,6 @@
 	)
 	(label "CAN1-"
 		(at 77.47 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3028,7 +3022,6 @@
 	)
 	(label "CAN1-"
 		(at 194.31 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3039,7 +3032,6 @@
 	)
 	(label "CAN1+"
 		(at 194.31 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3050,7 +3042,6 @@
 	)
 	(label "CAN2-"
 		(at 252.73 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3061,7 +3052,6 @@
 	)
 	(label "CAN1+"
 		(at 148.59 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3072,7 +3062,6 @@
 	)
 	(label "CAN1+"
 		(at 77.47 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3083,7 +3072,6 @@
 	)
 	(label "CAN2-"
 		(at 77.47 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3094,7 +3082,6 @@
 	)
 	(label "CAN2+"
 		(at 148.59 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3106,7 +3093,6 @@
 	(hierarchical_label "TXD2_LED"
 		(shape input)
 		(at 116.84 139.7 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3118,7 +3104,6 @@
 	(hierarchical_label "CAN2_RXD"
 		(shape output)
 		(at 53.34 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3130,7 +3115,6 @@
 	(hierarchical_label "USB_DOWNSTREAM_D-"
 		(shape input)
 		(at 147.32 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3142,7 +3126,6 @@
 	(hierarchical_label "USB_UPSTREAM_D-"
 		(shape input)
 		(at 76.2 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3154,7 +3137,6 @@
 	(hierarchical_label "RXD2_LED"
 		(shape input)
 		(at 116.84 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3166,7 +3148,6 @@
 	(hierarchical_label "USB_DOWNSTREAM_D+"
 		(shape input)
 		(at 147.32 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3178,7 +3159,6 @@
 	(hierarchical_label "TXD1_LED"
 		(shape input)
 		(at 45.72 140.97 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3190,7 +3170,6 @@
 	(hierarchical_label "USB_UPSTREAM_D+"
 		(shape input)
 		(at 76.2 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3202,7 +3181,6 @@
 	(hierarchical_label "CAN2_TXD"
 		(shape input)
 		(at 53.34 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3214,7 +3192,6 @@
 	(hierarchical_label "CAN1_RXD"
 		(shape output)
 		(at 152.4 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3226,7 +3203,6 @@
 	(hierarchical_label "CAN1_TXD"
 		(shape input)
 		(at 152.4 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3238,7 +3214,6 @@
 	(hierarchical_label "RXD1_LED"
 		(shape input)
 		(at 45.72 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -6,6 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "POWER DC to DC")
+		(date "2025-01-10")
+		(rev "1.0")
+		(company "Patryk Dudziński")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
@@ -3215,7 +3218,6 @@
 	)
 	(label "5V_COIL"
 		(at 165.1 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3227,7 +3229,6 @@
 	(hierarchical_label "V_SENSE"
 		(shape output)
 		(at 38.1 161.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
