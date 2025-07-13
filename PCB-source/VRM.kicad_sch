@@ -1,0 +1,360 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "39c2aa80-be2d-4484-88d1-7e4f1c01feef")
+	(paper "A4")
+	(title_block
+		(title "MMS2")
+		(date "2025-04-22")
+		(rev "A")
+		(company "Moducard System")
+		(comment 1 "Artem Horiunov")
+		(comment 2 "Designed in poland")
+	)
+	(lib_symbols
+		(symbol "LMR51625:LMR51625"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.842 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LMR516x5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr51625.pdf?ts=1738203054180"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Wide input voltage low IQ buck converter 0.6A to 3.5A output curr."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LMR51625_1_1"
+				(rectangle
+					(start -6.35 2.54)
+					(end 6.35 -10.16)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -3.81 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "C_BST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 -3.81 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -7.62 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "DONT FORGET TO ADD TVS ON VIN!!!"
+		(exclude_from_sim no)
+		(at 147.32 38.862 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 26 1)
+			)
+		)
+		(uuid "669d2ed1-bef2-43c2-a487-7368b6c22222")
+	)
+	(symbol
+		(lib_id "LMR51625:LMR51625")
+		(at 130.81 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23550ef2-03e3-4877-8cf4-7be43f1973dd")
+		(property "Reference" "U2"
+			(at 130.81 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LMR516x5"
+			(at 130.81 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 130.81 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr51625.pdf?ts=1738203054180"
+			(at 130.81 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wide input voltage low IQ buck converter 0.6A to 3.5A output curr."
+			(at 130.81 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "2c92bff3-f09c-4a43-b685-4bc68336c300")
+		)
+		(pin "6"
+			(uuid "9d61c92b-857a-4226-a06e-932b24939c34")
+		)
+		(pin "3"
+			(uuid "fa738ef1-ba45-4315-a11a-3aa695640479")
+		)
+		(pin "2"
+			(uuid "d7f12451-8d5f-4cdc-95d0-d96b16a6a659")
+		)
+		(pin "5"
+			(uuid "9197556b-973c-42fa-b9c5-dc789454ba26")
+		)
+		(pin "1"
+			(uuid "de3cf88e-5173-4dc9-8469-235c96e10d58")
+		)
+		(instances
+			(project "MMS2"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/c3406df1-7cb0-4484-a477-0c72b46ba076"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LMR51625:LMR51625")
+		(at 130.81 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95b52e01-2636-4c50-8f17-5790ced54b08")
+		(property "Reference" "U1"
+			(at 130.81 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LMR516x5"
+			(at 130.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 130.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr51625.pdf?ts=1738203054180"
+			(at 130.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wide input voltage low IQ buck converter 0.6A to 3.5A output curr."
+			(at 130.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7eabbb5a-ebb0-4574-9355-b6be549cf0a6")
+		)
+		(pin "6"
+			(uuid "b660f931-0833-4521-857c-ebc853d241ec")
+		)
+		(pin "3"
+			(uuid "f6a1bc13-b5b0-45cd-aa1a-68cd3727edb8")
+		)
+		(pin "2"
+			(uuid "876b6b2c-3836-4558-a77a-0be77db0d685")
+		)
+		(pin "5"
+			(uuid "1c38fb75-3847-4f04-b1ee-6c24c4e80bed")
+		)
+		(pin "1"
+			(uuid "2fd329e9-13a7-4ebe-96dd-4e4fb73112f8")
+		)
+		(instances
+			(project ""
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/c3406df1-7cb0-4484-a477-0c72b46ba076"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
