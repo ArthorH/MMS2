@@ -1978,6 +1978,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VBUS"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 93.98 128.27)
@@ -1996,6 +2121,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e9f53e2-2bb4-489b-895d-1fcf193c1819")
+	)
+	(junction
+		(at 165.1 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37f8edc0-44d2-48aa-ae57-ab1ade5e4ea4")
 	)
 	(junction
 		(at 146.05 92.71)
@@ -2092,6 +2223,16 @@
 			(type default)
 		)
 		(uuid "12a7a436-3727-4666-aaf9-a4be2ceaa3c9")
+	)
+	(wire
+		(pts
+			(xy 165.1 72.39) (xy 181.61 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "135529b2-f43b-4ec1-942c-f1f4449ba6dd")
 	)
 	(wire
 		(pts
@@ -2195,7 +2336,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 72.39) (xy 181.61 72.39)
+			(xy 139.7 72.39) (xy 165.1 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2282,6 +2423,16 @@
 			(type default)
 		)
 		(uuid "b1980853-8d6c-4c27-89af-d6948540050d")
+	)
+	(wire
+		(pts
+			(xy 165.1 69.85) (xy 165.1 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bded08fc-8860-44c5-8341-e2462cc444cc")
 	)
 	(wire
 		(pts
@@ -2640,6 +2791,72 @@
 			(project "MMS2"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/9171ecef-cf73-4f55-b1f0-c4c88f6b0a62"
 					(reference "C800")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 165.1 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2538e76c-c9ca-480b-9727-0fe224890bb2")
+		(property "Reference" "#PWR018"
+			(at 165.1 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 165.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 165.1 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14ecb92a-8c98-4197-9b2e-2ca875f3d546")
+		)
+		(instances
+			(project "MMS2"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/9171ecef-cf73-4f55-b1f0-c4c88f6b0a62"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)

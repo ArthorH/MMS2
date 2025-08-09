@@ -5071,7 +5071,7 @@
 		)
 		(uuid "d7e17fb4-5e2c-4d22-8799-138d5d1157c3")
 	)
-	(text "Do weryfikackji"
+	(text "Do weryfikackji moducard nav module 2\n"
 		(exclude_from_sim no)
 		(at 124.46 148.082 0)
 		(effects
