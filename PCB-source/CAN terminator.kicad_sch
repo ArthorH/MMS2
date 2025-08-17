@@ -5,7 +5,7 @@
 	(uuid "9d46ae73-e7e3-453b-8d1d-c5ac8b206b3a")
 	(paper "A4")
 	(title_block
-		(title "MMS2")
+		(title "CAN Auto terminator")
 		(date "2025-04-22")
 		(rev "A")
 		(company "Moducard System")
@@ -2069,17 +2069,6 @@
 			(justify left bottom)
 		)
 		(uuid "3581d043-8c1d-4aae-95f1-17d276d53cad")
-	)
-	(label "CAN_AUTOTERM.2"
-		(at 336.55 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left bottom)
-		)
-		(uuid "498fbb8a-d2e5-451b-9faa-edaeb7d729e2")
 	)
 	(label "CAN2.-"
 		(at 219.71 130.81 0)

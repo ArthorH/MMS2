@@ -5,7 +5,7 @@
 	(uuid "36751ee2-13f5-43c0-93de-b2e507cb2ee7")
 	(paper "A4")
 	(title_block
-		(title "MMS2")
+		(title "CAN transceiver")
 		(date "2025-04-22")
 		(rev "A")
 		(company "Moducard System")

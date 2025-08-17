@@ -5,7 +5,7 @@
 	(uuid "b9b1c8f6-60f0-409e-9710-5260d931f9db")
 	(paper "A4")
 	(title_block
-		(title "MMS2")
+		(title "QSPI flash")
 		(date "2025-04-22")
 		(rev "A")
 		(company "Moducard System")

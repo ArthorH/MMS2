@@ -5,7 +5,7 @@
 	(uuid "f6e6892f-f7da-4a02-acee-927b7aabd299")
 	(paper "A4")
 	(title_block
-		(title "MMS2")
+		(title "USB-C")
 		(date "2025-04-22")
 		(rev "A")
 		(company "Moducard System")
@@ -3143,7 +3143,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TPD2E2U06DCK"
+		(property "Value" "TPD2EUSB30DRTR-TP"
 			(at 158.75 101.5999 0)
 			(effects
 				(font
@@ -3152,7 +3152,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-723"
 			(at 134.62 106.68 0)
 			(effects
 				(font
@@ -3161,7 +3161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd2e2u06.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2844720.pdf"
 			(at 149.86 95.25 0)
 			(effects
 				(font
@@ -3171,6 +3171,15 @@
 			)
 		)
 		(property "Description" "Dual-Channel High-Speed ESD Protection, SC-70"
+			(at 154.94 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2844720"
 			(at 154.94 100.33 0)
 			(effects
 				(font

@@ -5,7 +5,7 @@
 	(uuid "89b7fac1-ab8f-4b3a-93f1-4cced86799a0")
 	(paper "A4")
 	(title_block
-		(title "MMS2")
+		(title "USB Switch")
 		(date "2025-04-22")
 		(rev "A")
 		(company "Moducard System")
@@ -2622,7 +2622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad-footprints:UFQFN-10_1.4x1.8"
+		(property "Footprint" "UFQFN-10_1.4x1.8:UFQFN-10_1.4x1.8"
 			(at 135.89 68.834 0)
 			(effects
 				(font

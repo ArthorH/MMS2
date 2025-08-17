@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -180,7 +186,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +215,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -452,7 +465,7 @@
   },
   "meta": {
     "filename": "MMS2.kicad_pro",
-    "version": 1
+    "version": 3
   },
   "net_settings": {
     "classes": [
@@ -467,6 +480,7 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.5,
@@ -477,13 +491,13 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.12,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.12,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "CAN_120_DIFF",
         "pcb_color": "rgb(255, 81, 215)",
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
         "via_diameter": 0.5,
@@ -494,13 +508,13 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "PWR",
         "pcb_color": "rgb(255, 0, 0)",
+        "priority": 1,
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.3,
         "via_diameter": 0.5,
@@ -511,13 +525,13 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.18,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "QSPI_50S_SE",
         "pcb_color": "rgb(55, 255, 75)",
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.18,
         "via_diameter": 0.5,
@@ -527,14 +541,14 @@
       {
         "bus_width": 12,
         "clearance": 0.15,
-        "diff_pair_gap": 0.15,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.18,
+        "diff_pair_gap": 0.11,
+        "diff_pair_width": 0.17,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB_90_DIFF",
         "pcb_color": "rgb(38, 8, 255)",
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.5,
@@ -543,7 +557,7 @@
       }
     ],
     "meta": {
-      "version": 3
+      "version": 4
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -731,10 +745,6 @@
       "USB switch"
     ],
     [
-      "e14d3b5a-3f3c-4248-8d21-d5c26d2334d3",
-      "TPS563201"
-    ],
-    [
       "c3406df1-7cb0-4484-a477-0c72b46ba076",
       "VRM"
     ],
@@ -745,10 +755,6 @@
     [
       "e8de3869-2d75-4042-9141-0eb2bdb0b1a2",
       "MCU"
-    ],
-    [
-      "26eafab9-2c43-4c09-81ff-0e14d4065136",
-      "User area"
     ],
     [
       "9171ecef-cf73-4f55-b1f0-c4c88f6b0a62",
@@ -771,16 +777,20 @@
       "POWER_CONN_IN"
     ],
     [
-      "954716a2-0274-4aca-98d0-06c0f729f96b",
-      "SIC471"
-    ],
-    [
       "d003e443-17a0-422c-b61a-990137afd07b",
-      "TPS563200"
+      "TPS563201"
     ],
     [
-      "72ab9c29-0cf1-4a1a-9b96-c999fc4647de",
-      "L7805"
+      "440a6979-cb24-4f89-898c-f89bdd794265",
+      "LMR36520ADDAR"
+    ],
+    [
+      "f6350a3a-247d-4669-ac4a-852f0d340cf0",
+      "LMR74700-1"
+    ],
+    [
+      "fdb595ff-e94b-4e80-8fe7-e7d367588ab2",
+      "Interboard_connector"
     ]
   ],
   "text_variables": {

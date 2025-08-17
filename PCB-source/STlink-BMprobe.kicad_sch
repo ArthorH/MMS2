@@ -5,7 +5,7 @@
 	(uuid "00cf2f74-6d07-45f5-ab53-c5221fb313f4")
 	(paper "A4")
 	(title_block
-		(title "MMS2")
+		(title "Black magic probe")
 		(date "2025-04-22")
 		(rev "A")
 		(company "Moducard System")
@@ -5049,6 +5049,19 @@
 		)
 		(uuid "bb08c2c7-1be9-4461-847c-b437f570700e")
 	)
+	(text "Podłączyć do UART1 stmH5\n"
+		(exclude_from_sim no)
+		(at 189.992 62.484 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+				(color 255 0 93 1)
+			)
+		)
+		(uuid "cccfac7f-0717-47d8-a9a2-369a1827f466")
+	)
 	(text "Populate with STM32F103C8, STM32F103CB\n"
 		(exclude_from_sim no)
 		(at 107.315 35.56 0)
@@ -5073,7 +5086,7 @@
 	)
 	(text "Do weryfikackji moducard nav module 2\n"
 		(exclude_from_sim no)
-		(at 124.46 148.082 0)
+		(at 125.222 157.988 0)
 		(effects
 			(font
 				(size 6 6)
@@ -5339,7 +5352,7 @@
 		(uuid "419cd255-5562-4372-ad62-63d254fdba4e")
 	)
 	(bus_entry
-		(at 127 111.76)
+		(at 135.89 111.76)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -5348,7 +5361,7 @@
 		(uuid "54e0bb97-ab0e-4bbb-a3f0-d3b310880d10")
 	)
 	(bus_entry
-		(at 127 109.22)
+		(at 135.89 109.22)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -5357,7 +5370,7 @@
 		(uuid "627fc4f6-b3b7-4706-a554-cdfaabbc360b")
 	)
 	(bus_entry
-		(at 127 114.3)
+		(at 135.89 114.3)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -5427,7 +5440,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 109.22) (xy 127 109.22)
+			(xy 123.19 109.22) (xy 135.89 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5457,7 +5470,7 @@
 	)
 	(bus
 		(pts
-			(xy 129.54 119.38) (xy 130.81 120.65)
+			(xy 138.43 119.38) (xy 139.7 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5767,7 +5780,7 @@
 	)
 	(bus
 		(pts
-			(xy 130.81 120.65) (xy 133.35 120.65)
+			(xy 139.7 120.65) (xy 142.24 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5934,6 +5947,16 @@
 			(type default)
 		)
 		(uuid "63e810ee-e9a3-43ed-a15e-a4bacfae2958")
+	)
+	(polyline
+		(pts
+			(xy 153.67 67.31) (xy 137.16 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64cbb942-c1e8-454c-8bf0-8f80578e925a")
 	)
 	(wire
 		(pts
@@ -6197,7 +6220,7 @@
 	)
 	(bus
 		(pts
-			(xy 129.54 116.84) (xy 129.54 119.38)
+			(xy 138.43 116.84) (xy 138.43 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6347,7 +6370,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 114.3) (xy 127 114.3)
+			(xy 123.19 114.3) (xy 135.89 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6357,7 +6380,7 @@
 	)
 	(bus
 		(pts
-			(xy 129.54 114.3) (xy 129.54 116.84)
+			(xy 138.43 114.3) (xy 138.43 116.84)
 		)
 		(stroke
 			(width 0)
@@ -6467,7 +6490,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 111.76) (xy 127 111.76)
+			(xy 123.19 111.76) (xy 135.89 111.76)
 		)
 		(stroke
 			(width 0)
@@ -6514,6 +6537,16 @@
 			(type default)
 		)
 		(uuid "d2f5236b-287d-4fde-8271-e7a47da186fc")
+	)
+	(polyline
+		(pts
+			(xy 137.16 68.58) (xy 138.43 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d862209e-2419-4267-8932-0e80e5912fe9")
 	)
 	(wire
 		(pts
@@ -6625,6 +6658,16 @@
 		)
 		(uuid "e48915a0-ce37-405d-a650-f91ca1927528")
 	)
+	(polyline
+		(pts
+			(xy 137.16 68.58) (xy 138.43 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e600634e-1c48-4995-8338-85bdb706442c")
+	)
 	(wire
 		(pts
 			(xy 116.84 74.93) (xy 118.11 74.93)
@@ -6657,7 +6700,7 @@
 	)
 	(bus
 		(pts
-			(xy 129.54 114.3) (xy 129.54 111.76)
+			(xy 138.43 114.3) (xy 138.43 111.76)
 		)
 		(stroke
 			(width 0)
@@ -6836,7 +6879,7 @@
 		(uuid "6b824fe8-70e2-47e8-a00c-6efdeb5d9b34")
 	)
 	(label "SWD.SWCLK"
-		(at 114.3 111.76 0)
+		(at 123.19 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6856,7 +6899,7 @@
 		(uuid "6f341e49-c53d-479e-b2fc-37277b060451")
 	)
 	(label "SWD.SWDIO"
-		(at 114.3 109.22 0)
+		(at 123.19 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6926,7 +6969,7 @@
 		(uuid "a260f767-c014-4737-9032-e0d40bc47b0b")
 	)
 	(label "SWD.~{RST}"
-		(at 114.3 114.3 0)
+		(at 123.19 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7007,7 +7050,7 @@
 	)
 	(hierarchical_label "SWD{SWD}"
 		(shape output)
-		(at 133.35 120.65 0)
+		(at 142.24 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10253,10 +10296,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "64d401e7-c9ff-4f0d-88b3-47f215da4bf0")
 		(property "Reference" "U700"
-			(at 103.7941 133.35 0)
+			(at 103.124 135.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10265,7 +10307,7 @@
 			)
 		)
 		(property "Value" "STM32F103CBTx"
-			(at 103.7941 135.89 0)
+			(at 103.124 137.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13491,7 +13533,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:Q_SOT-323"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 236.728 96.52 90)
 			(effects
 				(font
