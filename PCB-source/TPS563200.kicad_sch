@@ -2163,9 +2163,45 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 130.81 130.81)
+		(end 171.45 139.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3b73aaca-6421-4dc9-b851-a2d62e7aa5ab)
+	)
+	(rectangle
+		(start 130.81 125.73)
+		(end 171.45 130.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 79b42630-5eab-4530-b8fb-222ddf34b0b5)
+	)
+	(text "CALCULATIONS:"
+		(exclude_from_sim no)
+		(at 141.986 128.778 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "105bf90f-ec6e-4e7e-8aaf-f3f28f3673be")
+	)
 	(text "V_{OUT} = 0.765*(1+33k2/10k) = 3.3V"
 		(exclude_from_sim no)
-		(at 135.255 120.65 0)
+		(at 133.096 136.144 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2176,7 +2212,7 @@
 	)
 	(text "V_{OUT} = 0.765*(1+R302/R307)"
 		(exclude_from_sim no)
-		(at 135.255 118.11 0)
+		(at 133.096 133.604 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2222,22 +2258,10 @@
 		(uuid "498c93ef-e320-405c-8d64-2cfeb378fcc8")
 	)
 	(junction
-		(at 148.59 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7142e459-e67e-476f-9aba-2f694fef91fd")
-	)
-	(junction
 		(at 138.43 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e2b6c4f-37f6-42d5-8833-2b4da17fcbcf")
-	)
-	(junction
-		(at 189.23 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "854b918f-6962-4df0-98af-6304f4821451")
 	)
 	(junction
 		(at 160.02 90.17)
@@ -2252,22 +2276,10 @@
 		(uuid "c3938ad3-c8cd-4daf-af14-5d26e85d1ac2")
 	)
 	(junction
-		(at 196.85 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf6d2268-7ce4-46f0-96c2-8edbf16143c7")
-	)
-	(junction
 		(at 151.13 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2fa9435-c6b8-4295-93d0-4543205e5e38")
-	)
-	(junction
-		(at 140.97 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dfbeaa2f-a835-45de-b455-8f3d6d82c425")
 	)
 	(junction
 		(at 78.74 90.17)
@@ -2297,7 +2309,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 90.17) (xy 189.23 90.17)
+			(xy 181.61 90.17) (xy 186.69 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2417,7 +2429,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 90.17) (xy 198.12 90.17)
+			(xy 194.31 90.17) (xy 198.12 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2425,15 +2437,15 @@
 		)
 		(uuid "42851268-31be-4ab7-942d-c8278de18317")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 189.23 90.17) (xy 196.85 90.17)
+			(xy 147.32 104.14) (xy 147.32 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "52befcaa-fd53-4ec8-9e1e-64b51617884f")
+		(uuid "48099594-a699-4ac1-8a34-f506cbf1a8d0")
 	)
 	(wire
 		(pts
@@ -2477,16 +2489,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 90.17) (xy 148.59 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ef5dc40-7d5a-4fd5-b330-72962cb8de32")
-	)
-	(wire
-		(pts
 			(xy 170.18 90.17) (xy 181.61 90.17)
 		)
 		(stroke
@@ -2494,6 +2496,16 @@
 			(type default)
 		)
 		(uuid "7ab001ee-29a8-4018-9c7b-b21d496e6238")
+	)
+	(polyline
+		(pts
+			(xy 133.35 124.46) (xy 147.32 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c558836-16af-48ed-aee1-ac3efa1e9358")
 	)
 	(wire
 		(pts
@@ -2574,6 +2586,16 @@
 			(type default)
 		)
 		(uuid "aaa12849-b08b-4670-bdc0-cebec581da2f")
+	)
+	(polyline
+		(pts
+			(xy 142.24 106.68) (xy 147.32 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b269c0f0-b852-4b30-895e-bb67fd2d489d")
 	)
 	(wire
 		(pts
@@ -3724,7 +3746,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 193.04 90.17 0)
+		(at 190.5 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3732,7 +3754,7 @@
 		(dnp no)
 		(uuid "5c686bbe-5616-4f60-aabc-6066472c7056")
 		(property "Reference" "JP301"
-			(at 193.04 87.122 0)
+			(at 190.5 87.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3740,7 +3762,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Bridged"
-			(at 193.04 86.36 0)
+			(at 190.5 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3749,7 +3771,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 193.04 90.17 0)
+			(at 190.5 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3758,7 +3780,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 90.17 0)
+			(at 190.5 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3767,7 +3789,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 193.04 90.17 0)
+			(at 190.5 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)

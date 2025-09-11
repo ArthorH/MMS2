@@ -5051,7 +5051,7 @@
 	)
 	(text "Podłączyć do UART1 stmH5\n"
 		(exclude_from_sim no)
-		(at 189.992 62.484 0)
+		(at 206.248 62.484 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -5950,7 +5950,7 @@
 	)
 	(polyline
 		(pts
-			(xy 153.67 67.31) (xy 137.16 68.58)
+			(xy 154.94 67.31) (xy 138.43 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6540,7 +6540,7 @@
 	)
 	(polyline
 		(pts
-			(xy 137.16 68.58) (xy 138.43 69.85)
+			(xy 138.43 68.58) (xy 139.7 69.85)
 		)
 		(stroke
 			(width 0)
@@ -6660,7 +6660,7 @@
 	)
 	(polyline
 		(pts
-			(xy 137.16 68.58) (xy 138.43 67.31)
+			(xy 138.43 68.58) (xy 139.7 67.31)
 		)
 		(stroke
 			(width 0)

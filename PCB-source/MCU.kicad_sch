@@ -13,331 +13,6 @@
 		(comment 2 "Designed in poland")
 	)
 	(lib_symbols
-		(symbol "FixLed307:FixLed307"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "FixLed307"
-				(at 1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "FixLed307:FixLed307"
-				(at 1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.tme.eu/Document/b674d69546fee33ff395807565c0dcac/FIX-LED-301.pdf"
-				(at 1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Double Stack LED307"
-				(at 1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "FixLed307_1_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.2828 1.2706) (xy 0.0955 1.7402) (xy 0.1403 1.3153)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.0949 1.7411) (xy -0.274 1.6516)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.4394 0.8961) (xy 0.8177 1.3657) (xy 0.8625 0.9408)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.8171 1.3666) (xy 0.4482 1.2771)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "FixLed307_2_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.2385 1.3462) (xy 0.1398 1.8158) (xy 0.1846 1.3909)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.1392 1.8167) (xy -0.2297 1.7272)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.4837 0.9717) (xy 0.862 1.4413) (xy 0.9068 1.0164)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.8614 1.4422) (xy 0.4925 1.3527)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MCU_ST_STM32H5:STM32H563VGTx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7054,8 +6729,8 @@
 		(uuid 15448ac5-f805-4ed7-b470-9d42f0410da9)
 	)
 	(rectangle
-		(start 33.02 22.86)
-		(end 109.22 41.91)
+		(start 31.75 22.86)
+		(end 106.68 41.91)
 		(stroke
 			(width 0)
 			(type default)
@@ -7164,7 +6839,7 @@
 	)
 	(text "NOTE: PLACE CAPACTITOR AT PWR PIN\n\n"
 		(exclude_from_sim no)
-		(at 66.548 21.336 0)
+		(at 49.784 22.606 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7707,7 +7382,7 @@
 		(uuid "12bcd90c-2843-4801-ab1f-5a593ac1870b")
 	)
 	(bus_entry
-		(at 205.74 92.71)
+		(at 203.2 96.52)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -7716,7 +7391,7 @@
 		(uuid "187b1ded-ad81-49b5-9ebd-a73612e24e39")
 	)
 	(bus_entry
-		(at 205.74 95.25)
+		(at 203.2 99.06)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -7743,7 +7418,7 @@
 		(uuid "4a7e8491-bd06-46a8-817a-be825d0af6bb")
 	)
 	(bus_entry
-		(at 205.74 83.82)
+		(at 203.2 83.82)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -7806,7 +7481,7 @@
 		(uuid "8c3ac70d-9ec0-4ed4-b179-bcdd3d132d5d")
 	)
 	(bus_entry
-		(at 205.74 81.28)
+		(at 203.2 81.28)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -7862,7 +7537,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 81.28) (xy 205.74 81.28)
+			(xy 190.5 81.28) (xy 203.2 81.28)
 		)
 		(stroke
 			(width 0)
@@ -7882,7 +7557,7 @@
 	)
 	(bus
 		(pts
-			(xy 208.28 97.79) (xy 208.28 95.25)
+			(xy 205.74 101.6) (xy 205.74 99.06)
 		)
 		(stroke
 			(width 0)
@@ -7972,13 +7647,23 @@
 	)
 	(bus
 		(pts
-			(xy 209.55 101.6) (xy 208.28 100.33)
+			(xy 207.01 105.41) (xy 205.74 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0b01bdbe-6bdb-4af4-b859-4450c1c79c1a")
+	)
+	(bus
+		(pts
+			(xy 205.74 116.84) (xy 207.01 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cceeedb-e4c9-4a99-b05d-acb53c9b2753")
 	)
 	(wire
 		(pts
@@ -8082,7 +7767,7 @@
 	)
 	(bus
 		(pts
-			(xy 208.28 86.36) (xy 208.28 88.9)
+			(xy 205.74 86.36) (xy 205.74 88.9)
 		)
 		(stroke
 			(width 0)
@@ -8360,16 +8045,6 @@
 		)
 		(uuid "3db26149-d37d-404a-acb7-c83da95a6436")
 	)
-	(bus
-		(pts
-			(xy 209.55 118.11) (xy 205.74 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dc54c6f-f449-4a15-9b6e-4ddcd642ef13")
-	)
 	(wire
 		(pts
 			(xy 54.61 34.29) (xy 54.61 35.56)
@@ -8472,7 +8147,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 95.25) (xy 205.74 95.25)
+			(xy 190.5 99.06) (xy 203.2 99.06)
 		)
 		(stroke
 			(width 0)
@@ -8502,7 +8177,7 @@
 	)
 	(bus
 		(pts
-			(xy 209.55 101.6) (xy 212.09 101.6)
+			(xy 207.01 105.41) (xy 209.55 105.41)
 		)
 		(stroke
 			(width 0)
@@ -8542,7 +8217,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 92.71) (xy 205.74 92.71)
+			(xy 190.5 96.52) (xy 203.2 96.52)
 		)
 		(stroke
 			(width 0)
@@ -8552,7 +8227,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 83.82) (xy 205.74 83.82)
+			(xy 190.5 83.82) (xy 203.2 83.82)
 		)
 		(stroke
 			(width 0)
@@ -8782,7 +8457,7 @@
 	)
 	(bus
 		(pts
-			(xy 209.55 90.17) (xy 212.09 90.17)
+			(xy 207.01 90.17) (xy 209.55 90.17)
 		)
 		(stroke
 			(width 0)
@@ -9112,23 +8787,13 @@
 	)
 	(bus
 		(pts
-			(xy 209.55 90.17) (xy 208.28 88.9)
+			(xy 207.01 90.17) (xy 205.74 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a68c5847-6d62-4556-a300-248de8cc738f")
-	)
-	(bus
-		(pts
-			(xy 205.74 114.3) (xy 205.74 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a787a482-3bd5-4089-8c9e-5816f13e5014")
 	)
 	(wire
 		(pts
@@ -9272,7 +8937,7 @@
 	)
 	(bus
 		(pts
-			(xy 208.28 97.79) (xy 208.28 100.33)
+			(xy 205.74 101.6) (xy 205.74 104.14)
 		)
 		(stroke
 			(width 0)
@@ -9552,7 +9217,7 @@
 	)
 	(bus
 		(pts
-			(xy 208.28 83.82) (xy 208.28 86.36)
+			(xy 205.74 83.82) (xy 205.74 86.36)
 		)
 		(stroke
 			(width 0)
@@ -9589,6 +9254,16 @@
 			(type default)
 		)
 		(uuid "e08d188f-e5af-44f9-a536-dd833b63a810")
+	)
+	(bus
+		(pts
+			(xy 205.74 114.3) (xy 205.74 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e127c3dc-4398-4a67-b40d-538967100ebe")
 	)
 	(wire
 		(pts
@@ -9689,6 +9364,16 @@
 			(type default)
 		)
 		(uuid "ed8c045b-d2a8-453c-a782-0b52d1dcc7ee")
+	)
+	(bus
+		(pts
+			(xy 207.01 118.11) (xy 209.55 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edd7a5d8-268e-4ea7-9c3e-9d4c1fc6fffa")
 	)
 	(wire
 		(pts
@@ -10071,7 +9756,7 @@
 		(uuid "3ff27a35-32cf-4414-b773-663d808d858d")
 	)
 	(label "CAN2.TX"
-		(at 193.04 81.28 0)
+		(at 190.5 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10161,7 +9846,7 @@
 		(uuid "6246bd26-2ec4-44cf-897d-76816ed9b3e0")
 	)
 	(label "CAN1.TX"
-		(at 193.04 92.71 0)
+		(at 190.5 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10241,7 +9926,7 @@
 		(uuid "85de7561-c10b-4112-9733-c7bdc8c9105f")
 	)
 	(label "CAN1.RX"
-		(at 193.04 95.25 0)
+		(at 190.5 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10331,7 +10016,7 @@
 		(uuid "b3eb81c5-6ef4-4415-a217-a68b4f2637de")
 	)
 	(label "CAN2.RX"
-		(at 193.04 83.82 0)
+		(at 190.5 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10485,7 +10170,7 @@
 	)
 	(hierarchical_label "CAN2{RX TX}"
 		(shape input)
-		(at 212.09 90.17 0)
+		(at 209.55 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10507,7 +10192,7 @@
 	)
 	(hierarchical_label "CAN1{RX TX}"
 		(shape input)
-		(at 212.09 101.6 0)
+		(at 209.55 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13705,82 +13390,6 @@
 		)
 	)
 	(symbol
-		(lib_id "FixLed307:FixLed307")
-		(at 218.44 48.26 270)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61721eb7-a78a-415d-a068-9d46889a2bf2")
-		(property "Reference" "LED301"
-			(at 220.98 46.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FixLed307"
-			(at 220.98 49.5299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FixLed307:FixLed307"
-			(at 218.44 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/b674d69546fee33ff395807565c0dcac/FIX-LED-301.pdf"
-			(at 218.44 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Double Stack LED307"
-			(at 218.44 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "92eda0ac-15f4-43ad-b5a2-53c5853b7abb")
-		)
-		(pin "1"
-			(uuid "55910dfd-f2bf-4641-bedc-33c988424155")
-		)
-		(pin "2"
-			(uuid "b28f80ef-0e30-4d8d-98b3-0a8c2cbe0d3a")
-		)
-		(pin "4"
-			(uuid "8a5a7a00-1430-4b83-bdaa-27868ca564f5")
-		)
-		(instances
-			(project "MMS2"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/e8de3869-2d75-4042-9141-0eb2bdb0b1a2"
-					(reference "LED301")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 20.32 187.96 0)
 		(unit 1)
@@ -15216,82 +14825,6 @@
 		)
 	)
 	(symbol
-		(lib_id "FixLed307:FixLed307")
-		(at 250.19 48.26 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e2bd21d-7598-455f-8696-345441fbee97")
-		(property "Reference" "LED300"
-			(at 252.73 46.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FixLed307"
-			(at 252.73 49.5299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FixLed307:FixLed307"
-			(at 250.19 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/b674d69546fee33ff395807565c0dcac/FIX-LED-301.pdf"
-			(at 250.19 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Double Stack LED307"
-			(at 250.19 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "56b151e3-e72e-475c-986e-28204eab5869")
-		)
-		(pin "1"
-			(uuid "1845bf99-34c8-4006-885d-618129abb34c")
-		)
-		(pin "3"
-			(uuid "7ef60700-dc08-484a-b06c-f8d5c5956040")
-		)
-		(pin "4"
-			(uuid "9778f29b-5e25-40ef-934a-1cbd18127473")
-		)
-		(instances
-			(project "MMS2"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/e8de3869-2d75-4042-9141-0eb2bdb0b1a2"
-					(reference "LED300")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF,(2)")
 		(at 44.45 30.48 0)
 		(unit 1)
@@ -16405,82 +15938,6 @@
 		)
 	)
 	(symbol
-		(lib_id "FixLed307:FixLed307")
-		(at 234.95 48.26 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a08c6cfd-1dd3-4dde-b926-558a0cb69eea")
-		(property "Reference" "LED301"
-			(at 237.49 46.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FixLed307"
-			(at 237.49 49.5299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FixLed307:FixLed307"
-			(at 234.95 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/b674d69546fee33ff395807565c0dcac/FIX-LED-301.pdf"
-			(at 234.95 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Double Stack LED307"
-			(at 234.95 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "0b37f80f-269d-4458-ac2a-9c5dd03a2e36")
-		)
-		(pin "1"
-			(uuid "1d9752b5-7c14-4f81-867e-adf734381c74")
-		)
-		(pin "2"
-			(uuid "c9d8b2d9-e302-41a7-86cd-9cd9c636d044")
-		)
-		(pin "4"
-			(uuid "a5c6b0b5-4ffb-4743-8490-a68fa17196f0")
-		)
-		(instances
-			(project "MMS2"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/e8de3869-2d75-4042-9141-0eb2bdb0b1a2"
-					(reference "LED301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0402,2.2uF")
 		(at 72.39 170.18 0)
 		(unit 1)
@@ -17023,81 +16480,6 @@
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/e8de3869-2d75-4042-9141-0eb2bdb0b1a2"
 					(reference "#PWR0457")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FixLed307:FixLed307")
-		(at 266.7 48.26 270)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ab07093f-1cd6-40f6-b734-8f1b29625630")
-		(property "Reference" "LED300"
-			(at 269.24 46.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FixLed307"
-			(at 269.24 49.5299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FixLed307:FixLed307"
-			(at 266.7 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/b674d69546fee33ff395807565c0dcac/FIX-LED-301.pdf"
-			(at 266.7 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Double Stack LED307"
-			(at 266.7 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0829be1d-4b5e-4499-81a5-c4cbb96c04d9")
-		)
-		(pin "1"
-			(uuid "474cc91e-39e2-46d1-907e-d649e9054b8b")
-		)
-		(pin "3"
-			(uuid "a23a3b82-4257-4a89-960f-a8aad9076123")
-		)
-		(pin "4"
-			(uuid "3929964d-c5d6-4aed-a16a-496c576cb829")
-		)
-		(instances
-			(project "MMS2"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/e8de3869-2d75-4042-9141-0eb2bdb0b1a2"
-					(reference "LED300")
-					(unit 2)
 				)
 			)
 		)

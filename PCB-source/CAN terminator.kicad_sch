@@ -1366,6 +1366,18 @@
 		)
 		(uuid "46cc4b49-c687-4bac-9fc0-16331141831c")
 	)
+	(text "NOTE:"
+		(exclude_from_sim no)
+		(at 101.092 130.302 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "fabf171f-8e47-4997-a8b3-4755ec3e527c")
+	)
 	(junction
 		(at 170.18 114.3)
 		(diameter 0)

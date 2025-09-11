@@ -773,16 +773,16 @@
       "CAN auto terminator"
     ],
     [
-      "92c9aab0-beb9-4fe4-be38-91df99e443e1",
-      "POWER_CONN_IN"
-    ],
-    [
       "d003e443-17a0-422c-b61a-990137afd07b",
       "TPS563201"
     ],
     [
       "440a6979-cb24-4f89-898c-f89bdd794265",
       "LMR36520ADDAR"
+    ],
+    [
+      "75744aa8-9b7c-4f01-8c3f-b5153be45f3f",
+      "POWER_IN_CONN"
     ],
     [
       "f6350a3a-247d-4669-ac4a-852f0d340cf0",
