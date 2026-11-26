@@ -27,3 +27,17 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# Standard KiCad rules (from moducard-cm5-module)
+*-cache*
+*-bak
+*-bak*
+~*
+\#auto_saved_files\#
+~*.lck
+\#auto_saved_files#
+# Archived Backups (KiCad 6.0)
+**/*-backups/*.zip
+# Local project settings
+# KiCad history folders
+.history/
